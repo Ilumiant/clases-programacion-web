@@ -1,0 +1,28 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boton {
+  background-color: #286bb3;
+  border: 1px solid #286bb3;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton:hover {
+  background-color: #21568f;
+  border: 1px solid #21568f;
+  color: white;
+}
+
+.boton:disabled {
+  background-color: #8caed2;
+  border: 1px solid #8caed2;
+  cursor: not-allowed;
+}
